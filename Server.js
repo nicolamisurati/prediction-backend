@@ -42,6 +42,7 @@ app.post('/api/predictions', async (req, res) => {
     }
 });
 
+
 // Endpoint to get predictions for a user
 app.get('/api/predictions/:userId', async (req, res) => {
     const userId = req.params.userId;
